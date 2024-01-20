@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+   display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    text-shadow: 0 0 2px black;
+}
+.content{
+    width: 100%;
+    top: 30%;
+    position: absolute;
+}
+.leftcol h1{
+    color: white;
+    font-size: 90px;
+    float: left;
+    line-height: 110px;
+}
+.leftcol{
+    margin-left: 6%;
+}
+.rightcol{
+    float: right;
+    margin-top: 120px;
+    margin-right: 6%;
+    display: flex;
+    align-items: center;
+}
+.rightcol p{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#button{
+    width: 80px;
+    cursor: pointer;
+}
